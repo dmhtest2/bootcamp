@@ -1,0 +1,6 @@
+total 16
+drwxrwxr-x. 2 admin admin   46 Jun 28 16:38 .
+drwxrwxr-x. 4 admin admin   50 Jun 28 15:27 ..
+-rwxrwxr-x. 1 admin admin 8612 Jun 28 16:38 freq
+-rw-rw-r--. 1 admin admin  585 Jun 28 16:38 freqparse.c
+-rw-rw-r--. 1 admin admin    0 Jun 28 16:38 text
