@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void multstore(long, long long *);
+void multstore(long, long, long *);
 
 int main() {
   long d;

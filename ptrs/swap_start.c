@@ -1,7 +1,11 @@
 #include <stdio.h>
 
-void swap(ARGUMENTS HERE) {
-	STATEMENTS HERE
+void swap(int* a, int* b) {
+	int temp;
+	temp = *a;
+	*a = *b;
+	*b = temp;
+	return;
 }
 
 int main() {
@@ -10,7 +14,7 @@ int main() {
 
 	printf("a=%d, b=%d\n", a, b);
 
-	swap(a, b);	
+	swap(&a, &b);
 
 	printf("a=%d, b=%d\n", a, b);
 
